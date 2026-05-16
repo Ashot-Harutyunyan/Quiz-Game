@@ -1,0 +1,64 @@
+.end-eyebrow {
+  font-size: 14px;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: #C9A96E;
+  margin-bottom: 1.5rem;
+}
+.end-score {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(5rem, 16vw, 8rem);
+  font-weight: 300;
+  color: #F0EDE8;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  span {
+    font-size: 30%;
+    color: #5A5650;
+    vertical-align: middle;
+  }
+}
+.end-verdict {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-style: italic;
+  color: #E8D5B0;
+  margin-bottom: .75rem;
+}
+.end-detail {
+  color: #5A5650;
+  margin-bottom: 3rem;
+  letter-spacing: .02em;
+}
+.end-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: #2A2A32;
+  margin-bottom: 3rem;
+  border: 1px solid #2A2A32;
+}
+.stat-cell {
+  background: #111115;
+  padding: 1.5rem;
+  text-align: center;
+}
+.stat-val {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #F0EDE8;
+  margin-bottom: 4px;
+}
+.stat-lbl {
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #5A5650;
+}
+.end-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}

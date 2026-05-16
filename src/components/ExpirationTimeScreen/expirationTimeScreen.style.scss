@@ -1,0 +1,50 @@
+.timeout-icon {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #5A5650;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+.timeout-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: .75rem;
+}
+.timeout-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #9E9A94;
+  margin-bottom: 3rem;
+}
+.end-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin-bottom: 3rem;
+}
+.stat-cell {
+  padding: 1.5rem;
+  text-align: center;
+}
+.stat-cell:first-child {
+  border: 1px solid #2A2A32;
+}
+.stat-cell:last-child {
+  border: 1px solid #2A2A32;
+  border-left: none;
+}
+.stat-val {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #F0EDE8;
+  margin-bottom: 4px;
+}
+.stat-lbl {
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #5A5650;
+}

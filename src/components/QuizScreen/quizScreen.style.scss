@@ -1,0 +1,18 @@
+.points-toast {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-family: 'Cormorant Garamond',serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #E8D5B0;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: all .4s;
+  pointer-events: none;
+  z-index: 100;
+}
+.points-toast.show{
+  opacity: 1;
+  transform: translateY(0);
+}

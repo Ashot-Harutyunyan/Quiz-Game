@@ -1,0 +1,88 @@
+.quiz-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.container-counter-timer-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-timer-label {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: end;
+}
+.q-counter {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  font-weight: 300;
+  color: #5A5650;
+  line-height: 1;
+  span {
+    font-size: 1.8rem;
+    color: #5A5650;
+  }
+}
+.timer-label {
+  font-size: 11px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #5A5650;
+  margin-bottom: 6px;
+}
+.round {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.round-text {
+  position: absolute;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #0A0A0C;
+  color: #e1c1a5;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-bar {
+  height: 1px;
+  background: #2A2A32;
+  margin-bottom: 3rem;
+  position: relative;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #8B6E42, #C9A96E);
+  transition: width .6s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #C9A96E;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: left .6s ease;
+}

@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('./assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+}
+body {
+  background-color: #0A0A0C;
+  color: #F0EDE8;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.screen {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  animation: fadeIn .6s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

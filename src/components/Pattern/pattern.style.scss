@@ -1,0 +1,23 @@
+.deco-line {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+.deco-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #C9A96E;
+  flex-shrink: 0;
+}
+.deco-line::before,
+.deco-line::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #8B6E42);
+}
+.deco-line::after {
+  background: linear-gradient(90deg, #8B6E42, transparent);
+}
