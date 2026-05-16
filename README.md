@@ -2,6 +2,8 @@
 
 A minimalistic and elegant quiz application built with React + Vite.
 
+Live Demo: https://quiz-game-snowy-three.vercel.app/
+
 ---
 
 ## Features
