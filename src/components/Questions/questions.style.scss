@@ -27,11 +27,6 @@
   align-items: center;
   gap: 16px;
   letter-spacing: .02em;
-  &:not(.disabled):not(.wrong):not(.correct):hover {
-    border-color: #8B6E42;
-    color: #F0EDE8;
-    transform: translateX(4px);
-  }
   &.wrong {
     border-color: #8C4A4A;
     color: #C48888;
@@ -53,4 +48,11 @@
   color: #5A5650;
   min-width: 18px;
   transition: .25s;
+}
+@media (hover: hover) {
+  .answer-btn:not(.disabled):not(.wrong):not(.correct):hover {
+    border-color: #8B6E42;
+    color: #F0EDE8;
+    transform: translateX(4px);
+  }
 }
