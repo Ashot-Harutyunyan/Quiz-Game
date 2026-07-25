@@ -12,7 +12,7 @@ function ResultScreen({dispatch, points, time, length}) {
         {value: 60 - time, label: 'Time Used'}
     ]
 
-    return (<div className='screen'>
+    return <div className='screen'>
         <Pattern/>
         <span className='end-eyebrow'>Results</span>
         <h2 className='end-score'>{length}<span>/{points}</span></h2>
@@ -27,7 +27,7 @@ function ResultScreen({dispatch, points, time, length}) {
             ))}
         </div>
         <EndActions dispatch={dispatch}/>
-    </div>)
+    </div>
 }
 
 export default ResultScreen

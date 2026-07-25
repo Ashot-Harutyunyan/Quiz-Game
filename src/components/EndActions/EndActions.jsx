@@ -1,7 +1,7 @@
 import './endActions.style.scss'
 
 function EndActions({dispatch}) {
-    return<div className="end-actions">
+    return <div className="end-actions">
         <button className="btn-secondary"
                 onClick={() => dispatch({type: 'CHANGE_SCREEN', payload: 'start'})}
         >Return Home</button>
